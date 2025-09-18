@@ -24,6 +24,12 @@ const Navbar = () => {
                 height={24}
                 className="w-6 h-6"
               />
+              <div className="text-xl font-bold">
+                Bear
+                <span className="text-secondary-500 font-light hover:!text-primary-300">
+                  BNB
+                </span>
+              </div>
             </div>
           </Link>
         </div>
