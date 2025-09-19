@@ -25,14 +25,17 @@ const Navbar = () => {
                 className="w-6 h-6"
               />
               <div className="text-xl font-bold">
-                Bear
+                Community
                 <span className="text-secondary-500 font-light hover:!text-primary-300">
-                  BNB
+                  Space
                 </span>
               </div>
             </div>
           </Link>
         </div>
+        <p className=" text-primary-200 hidden md:block">
+          Find your perfect showcase space with our advanced search
+        </p>
       </div>
     </div>
   );
