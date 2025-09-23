@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { Input } from "@/components/ui/input";
 
 const HeroSection = () => {
   return (
@@ -25,6 +26,20 @@ const HeroSection = () => {
             <h1 className="text-5xl font-bold text-white mb-4">
               Find the perfect space for your next event
             </h1>
+            <p className="text-xl text-white mb-8">
+              Explore our wide range of community center to find your perfect
+              fit!
+            </p>
+
+            <div className="flex justify-center">
+              <Input
+                type="text"
+                value="search query"
+                onChange={() => {}}
+                placeholder="Search by city, neighborhood, or address"
+                className="w-full max-w-lg rounded-none rounded-l-xl border-none bg-white h-12"
+              />
+            </div>
           </div>
         </motion.div>
       </div>
