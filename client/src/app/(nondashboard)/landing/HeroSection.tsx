@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
@@ -39,6 +40,12 @@ const HeroSection = () => {
                 placeholder="Search by city, neighborhood, or address"
                 className="w-full max-w-lg rounded-none rounded-l-xl border-none bg-white h-12"
               />
+              <Button
+                onClick={() => {}}
+                className="bg-secondary-500 text-white rounded-none rounded-r-xl border-none h-12"
+              >
+                Search
+              </Button>
             </div>
           </div>
         </motion.div>
