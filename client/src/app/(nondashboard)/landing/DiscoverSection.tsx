@@ -39,12 +39,20 @@ const DiscoverSection = () => {
       className="py-12 bg-white mb-16"
     >
       <div className="max-w-6xl xl:max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
-        <motion.h2
-          variants={itemVariants}
-          className="text-3xl font-bold text-center mb-12 w-full sm:w-2/3 mx-auto"
-        >
-          Quickly find the home you want using our effective search filters!
-        </motion.h2>
+        <motion.div variants={itemVariants} className="my-12 text-center">
+          <h2 className="text-3xl font-semibold leading-tight text-gray-800">
+            Discover
+          </h2>
+          <p className="mt-4 text-gray-600 text-lg ">
+            Find your perfect community space today!
+          </p>
+          <p className="mt-2 text-gray-500 max-w-3xl mx-auto">
+            Finding the perfect community space for your event has never been
+            easier. With our user-friendly search feature, you can quickly find
+            the perfect space that meets all your needs. Start searching today
+            and find your space!
+          </p>
+        </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 xl:gap-16">
           {[0, 1, 2].map((index) => (
             <motion.div key={index} variants={itemVariants}>
