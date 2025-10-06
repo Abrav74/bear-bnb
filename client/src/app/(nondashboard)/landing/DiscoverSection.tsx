@@ -53,13 +53,36 @@ const DiscoverSection = () => {
             and find your space!
           </p>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 xl:gap-16"></div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 xl:gap-16">
+          {[
+            {
+              imageSrc: "/landing-icon-wand.png",
+              title: "Search for Spaces",
+              description:
+                "Browse our extensive listings of community spaces in your area.",
+            },
+            {
+              imageSrc: "/landing-icon-caledar.png",
+              title: "Book Your Rental",
+              description:
+                "Once you find the perfect space, book it directly through our platform.",
+            },
+            {
+              imageSrc: "/landing-icon-heart.png",
+              title: "Enjoy Your Event",
+              description:
+                "Setup your event and start enjoying your community space rental!",
+            },
+          ].map((card, index) => (
+            <motion.div key={index} variants={itemVariants}></motion.div>
+          ))}
+        </div>
       </div>
     </motion.div>
   );
 };
 
-const FeatureCard = ({
+const DiscoverCard = ({
   imageSrc,
   title,
   description,

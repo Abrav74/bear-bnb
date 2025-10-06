@@ -55,5 +55,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-// 51:13
