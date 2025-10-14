@@ -62,7 +62,7 @@ const DiscoverSection = () => {
                 "Browse our extensive listings of community spaces in your area.",
             },
             {
-              imageSrc: "/landing-icon-caledar.png",
+              imageSrc: "/landing-icon-calendar.png",
               title: "Book Your Rental",
               description:
                 "Once you find the perfect space, book it directly through our platform.",
