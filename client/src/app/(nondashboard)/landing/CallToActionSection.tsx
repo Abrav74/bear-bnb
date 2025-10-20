@@ -30,6 +30,11 @@ const CallToActionSection = () => {
                 Find Your Perfect Community Space
               </h2>
             </div>
+            <div>
+              <p className="text-white mb-3">
+                Discover a wide range of rentable community spaces in your are
+              </p>
+            </div>
           </div>
         </motion.div>
       </div>
