@@ -25,7 +25,11 @@ const CallToActionSection = () => {
           className="relative max-w-4xl xl:max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 py-12"
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-6 md:mb-0 md:mr-10"></div>
+            <div className="mb-6 md:mb-0 md:mr-10">
+              <h2 className="text-2xl font-bold text-white">
+                Find Your Perfect Community Space
+              </h2>
+            </div>
           </div>
         </motion.div>
       </div>
