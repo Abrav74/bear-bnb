@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CallToActionSection = () => {
   return (
@@ -34,6 +35,23 @@ const CallToActionSection = () => {
               <p className="text-white mb-3">
                 Discover a wide range of rentable community spaces in your are
               </p>
+              <div className="flex justify-center md:justify-start gap-4">
+                <button
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
+                  className="inline-block text-primary-700 bg-white rounded-lg px-6 py-3 font-semibold hover:bg-primary-500 hover:text-primary-50"
+                >
+                  Search
+                </button>
+                <Link
+                  href="/signup"
+                  className="inline-block text-white bg-secondary-500 rounded-lg px-6 py-3 font-semibold hover:bg-secondary-600"
+                  scroll={false}
+                >
+                  Signup
+                </Link>
+              </div>
             </div>
           </div>
         </motion.div>
