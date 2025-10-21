@@ -11,6 +11,25 @@ const FooterSection = () => {
               COMMUNITY SPACE
             </Link>
           </div>
+          <nav>
+            <ul className="flex space-x-6">
+              <li>
+                <Link href="/about">About Us</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact Us</Link>
+              </li>
+              <li>
+                <Link href="/faq">FAQ</Link>
+              </li>
+              <li>
+                <Link href="/terms">Terms</Link>
+              </li>
+              <li>
+                <Link href="/privacy">Privacy</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>
