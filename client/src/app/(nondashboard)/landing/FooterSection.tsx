@@ -68,6 +68,12 @@ const FooterSection = () => {
             </a>
           </div>
         </div>
+        <div className="text-center mt-8 text-sm text-gray-500 flex justify-center space-x-4">
+          <span>©CommunitySpace</span>
+          <Link href="/privacy">Privacy Policy</Link>
+          <Link href="/terms">Terms of Service</Link>
+          <Link href="/cookies">Cookie Policy</Link>
+        </div>
       </div>
     </footer>
   );

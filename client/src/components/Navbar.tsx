@@ -26,9 +26,9 @@ const Navbar = () => {
                 className="w-6 h-6"
               />
               <div className="text-xl font-bold">
-                Community
+                COMMUNITY
                 <span className="text-secondary-500 font-light hover:!text-primary-300">
-                  Space
+                  SPACE
                 </span>
               </div>
             </div>
