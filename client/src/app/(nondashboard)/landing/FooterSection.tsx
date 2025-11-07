@@ -3,8 +3,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faTwitter,
   faInstagram,
+  faTwitter,
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
@@ -16,10 +16,10 @@ const FooterSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4">
             <Link href="/" className="text-xl font-bold" scroll={false}>
-              COMMUNITY SPACE
+              RENTIFUL
             </Link>
           </div>
-          <nav>
+          <nav className="mb-4">
             <ul className="flex space-x-6">
               <li>
                 <Link href="/about">About Us</Link>
@@ -68,8 +68,8 @@ const FooterSection = () => {
             </a>
           </div>
         </div>
-        <div className="text-center mt-8 text-sm text-gray-500 flex justify-center space-x-4">
-          <span>©CommunitySpace</span>
+        <div className="mt-8 text-center text-sm text-gray-500 flex justify-center space-x-4">
+          <span>© RENTiful. All rights reserved.</span>
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms of Service</Link>
           <Link href="/cookies">Cookie Policy</Link>
