@@ -20,7 +20,7 @@ app.use(cors());
 
 // ROUTES
 app.get("/", (req, res) => {
-  res.send("Server is running");
+  res.send("Bears API is running...");
 });
 
 // SERVER
